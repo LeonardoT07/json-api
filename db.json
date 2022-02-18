@@ -1,30 +1,41 @@
+
 {
-    "turmas":{
-        "sao-paulo": {
-            "id": 1,
-            "campinas": {
-                "id": 1,
-                "turmas": "Turma 52: Módulo I – 14 e 15/05/2022, Módulo II – 21 e 22/05/2022 (APENAS 3 VAGAS!!);",
-                "localizacao": "STUDIO VOLL PILATES - RUA TIRADENTES, 777 – VILA ITAPURA – CAMPINAS/SP"
+    "turmas": [
+      {
+        "id": "sao-paulo",
+        "estado": "sao-paulo",
+        "cidades": [
+            {
+                "id": "campinas",
+                "cidades": "campinas",
+                "turmas": "Turma 62: Módulo I – 19 e 20/03/2022, Módulo II – 26 e 27/03/2022 (APENAS 3 VAGAS!!)",
+                "localizacao": "Studio de Pilates Danielle Costa, Av. Alameda Campomar, 457, Loja 2 – Cidade Praiana – Rio das Ostras/RJ" 
             },
-            "americana": {
-                "id": 2,
+            {
+                "id": "americana",
+                "cidades": "americana",
                 "turmas": "Turma 53: Módulo I – 16 e 17/07/2022 Módulo II – 23 e 24/07/2022VAGAS ABERTAS!!",
                 "localizacao": "Espaço New Corp - Rua Quintino Bocaiuva, 620, esquina com Tamoio, Bairro Sta Catarina – Americana/SP"
             }
-        },
-        "rio-de-janeiro": {
-            "id": 2,
-            "rio-das-ostras": {
-                "id": 1,
+        ]
+      },
+      {
+        "id": "rio-de-janeiro",
+        "estado": "rio-de-janeiro",
+        "cidades": [
+            {
+                "id": "rio-das-ostras",
+                "cidades": "rio-das-ostras",
                 "turmas": "Turma 62: Módulo I – 19 e 20/03/2022, Módulo II – 26 e 27/03/2022 (APENAS 3 VAGAS!!)",
-                "localizacao": "Studio de Pilates Danielle Costa, Av. Alameda Campomar, 457, Loja 2 – Cidade Praiana – Rio das Ostras/RJ"
+                "localizacao": "Studio de Pilates Danielle Costa, Av. Alameda Campomar, 457, Loja 2 – Cidade Praiana – Rio das Ostras/RJ" 
             },
-            "volta-redonda": {
-                "id": 2,
+            {
+                "id": "volta-redonda",
+                "cidades": "volta-redonda",
                 "turmas": "Turma 11: Módulo I – 12 e 13/03/2022, Módulo II – 19 e 20/03/2022 (APENAS 3 VAGAS!!)",
                 "localizacao": "INOVARE STUDIO PILATES, Avenida Luiz Alves Pereira , Nº115 – Sala 601 – Bairro Aterrado – Volta Redonda/RJ"
             }
-        }
-    }
+        ]
+      }
+    ]
 }
